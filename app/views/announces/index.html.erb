@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+  <div class="row">
+    <% @announces.each do |announce| %>
+        <div>
+          <%= announce.title %>
+          <%= announce.price %>
+        </div>
+    <% end %>
+  </div>
+
+<br>
+
+<%= link_to 'Создать Объявление', new_announce_path, class: 'btn btn-primary new-announce' %>

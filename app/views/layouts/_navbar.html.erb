@@ -1,0 +1,9 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header"></div>
+  <h3 class="navbar-brand ">Доска Объявлений</h3>
+  <ul class="nav navbar-nav navbar-right">
+    <% if user_signed_in? %>
+        <li><%= link_to 'Выйти', destroy_user_session_path, method: :delete, class: 'log-out' %></li>
+    <% end %>
+  </ul>
+</nav>

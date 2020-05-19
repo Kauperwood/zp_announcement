@@ -1,0 +1,23 @@
+<%= form_with(model: announce, local: true) do |f| %>
+  <% if announce.errors.any? %>
+    <div id="error_explanation">
+      <ul>
+      <% announce.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <h6><%= f.text_field :title %></h6>
+  </div>
+  <div class="form-group">
+    <h6><%= f.number_field :price %></h6>
+  </div>
+
+  <div class="actions">
+    <%= f.submit 'Сохранить', class: 'btn btn-primary' %>
+      <a href="/announces"><button class="btn btn-info">Отмена</button></a>
+  </div>
+<% end %>

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<table>
+  <tbody>
+    <% @my_announcements.each do |announce| %>
+      <tr id="item-<%= announce.id %>">
+        <td><%= announce.title %></td>
+        <td><%= announce.price %></td>
+        <td><%= link_to edit_my_announcement_path(announce), class: 'edit-item' do %>
+          <span class="glyphicon glyphicon-pencil"></span>
+          <% end %>
+        </td>
+        <td>
+          <%= link_to announce, method: :delete, id: 'remove-item', data: {confirm: 'Are you sure?'} do %>
+              <span class="glyphicon glyphicon-remove"></span>
+           <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Создать Объявление', new_announce_path, class: 'btn btn-primary new-announce' %>

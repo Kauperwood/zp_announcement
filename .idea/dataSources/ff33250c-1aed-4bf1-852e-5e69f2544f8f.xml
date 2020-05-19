@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Rails announcement: development">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="announcement_development">
+      <ObjectId>993418</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2020-05-19.17:14:42.466</IntrospectionTimestamp>
+      <IntrospectionStateNumber>6858951</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12976</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="announces_id_seq">
+      <ObjectId>993497</ObjectId>
+      <StateNumber>6786432</StateNumber>
+    </sequence>
+    <sequence id="10" parent="3" name="users_id_seq">
+      <ObjectId>993419</ObjectId>
+      <StateNumber>6786408</StateNumber>
+    </sequence>
+    <table id="11" parent="3" name="announces">
+      <ObjectId>993499</ObjectId>
+      <StateNumber>6858951</StateNumber>
+    </table>
+    <table id="12" parent="3" name="ar_internal_metadata">
+      <ObjectId>993442</ObjectId>
+      <StateNumber>6786413</StateNumber>
+    </table>
+    <table id="13" parent="3" name="schema_migrations">
+      <ObjectId>993434</ObjectId>
+      <StateNumber>6786411</StateNumber>
+    </table>
+    <table id="14" parent="3" name="users">
+      <ObjectId>993421</ObjectId>
+      <StateNumber>6786408</StateNumber>
+    </table>
+    <column id="15" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786432</StateNumber>
+      <DefaultExpression>nextval(&apos;announces_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="16" parent="11" name="description">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>6786432</StateNumber>
+    </column>
+    <column id="17" parent="11" name="user_id">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>6786432</StateNumber>
+    </column>
+    <column id="18" parent="11" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786432</StateNumber>
+    </column>
+    <column id="19" parent="11" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786432</StateNumber>
+    </column>
+    <column id="20" parent="11" name="price">
+      <Position>7</Position>
+      <DataType>numeric(15,10)|0</DataType>
+      <StateNumber>6858951</StateNumber>
+    </column>
+    <column id="21" parent="11" name="title">
+      <Position>8</Position>
+      <DataType>text|0</DataType>
+      <StateNumber>6858951</StateNumber>
+    </column>
+    <index id="22" parent="11" name="announces_pkey">
+      <ObjectId>993506</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="23" parent="11" name="announces_pkey">
+      <ObjectId>993507</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>announces_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="24" parent="12" name="key">
+      <Position>1</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786413</StateNumber>
+    </column>
+    <column id="25" parent="12" name="value">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>6786413</StateNumber>
+    </column>
+    <column id="26" parent="12" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786413</StateNumber>
+    </column>
+    <column id="27" parent="12" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786413</StateNumber>
+    </column>
+    <index id="28" parent="12" name="ar_internal_metadata_pkey">
+      <ObjectId>993448</ObjectId>
+      <ColNames>key</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="29" parent="12" name="ar_internal_metadata_pkey">
+      <ObjectId>993449</ObjectId>
+      <ColNames>key</ColNames>
+      <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="13" name="version">
+      <Position>1</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786411</StateNumber>
+    </column>
+    <index id="31" parent="13" name="schema_migrations_pkey">
+      <ObjectId>993440</ObjectId>
+      <ColNames>version</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="32" parent="13" name="schema_migrations_pkey">
+      <ObjectId>993441</ObjectId>
+      <ColNames>version</ColNames>
+      <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="33" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786408</StateNumber>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="34" parent="14" name="email">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786408</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="35" parent="14" name="encrypted_password">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786408</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="36" parent="14" name="reset_password_token">
+      <Position>4</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>6786408</StateNumber>
+    </column>
+    <column id="37" parent="14" name="reset_password_sent_at">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>6786408</StateNumber>
+    </column>
+    <column id="38" parent="14" name="remember_created_at">
+      <Position>6</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>6786408</StateNumber>
+    </column>
+    <column id="39" parent="14" name="created_at">
+      <Position>7</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786408</StateNumber>
+    </column>
+    <column id="40" parent="14" name="updated_at">
+      <Position>8</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6786408</StateNumber>
+    </column>
+    <index id="41" parent="14" name="users_pkey">
+      <ObjectId>993430</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="42" parent="14" name="index_users_on_email">
+      <ObjectId>993432</ObjectId>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="43" parent="14" name="index_users_on_reset_password_token">
+      <ObjectId>993433</ObjectId>
+      <ColNames>reset_password_token</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="44" parent="14" name="users_pkey">
+      <ObjectId>993431</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
