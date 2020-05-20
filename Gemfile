@@ -17,7 +17,6 @@ gem 'rake', '13.0.1'
 gem 'omniauth-twitter', '~> 1.4'         # OmniAuth strategy for Twitter
 
 group :development, :test do
-gem 'rspec-rails', '~> 4.0'              # rspec-rails is a testing framework for Rails 5+
 gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5' # Autoload dotenv in Rails
 gem 'sqlite3', '1.4.2'                   # Use sqlite3 as the database for Active Record
@@ -28,7 +27,6 @@ gem 'web-console', '>= 4.0.2'            # Access an interactive console on exce
 gem 'listen', '>= 3.0.5', '< 3.2'
 gem 'spring'                             # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring-watcher-listen', '~> 2.0.0'
-
 end
 
 group :test do
