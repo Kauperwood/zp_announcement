@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 ruby '2.6.2'
 
 gem 'rails', '~> 6.0', '>= 6.0.3.rc1'
-gem 'sqlite3'                            # Use sqlite3 as the database for Active Record
 gem 'puma', '~> 3.11'                    # Use Puma as the app server
 gem 'sass-rails', '~> 5.0'               # Use SCSS for stylesheets
 gem 'uglifier', '>= 4.2.0'               # Use Uglifier as compressor for JavaScript assets
@@ -21,6 +20,7 @@ group :development, :test do
 gem 'rspec-rails', '~> 4.0'              # rspec-rails is a testing framework for Rails 5+
 gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5' # Autoload dotenv in Rails
+gem 'sqlite3', '1.4.2'                   # Use sqlite3 as the database for Active Record
 end
 
 group :development do
