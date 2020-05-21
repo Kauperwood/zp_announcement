@@ -41,7 +41,7 @@ Announcement::Application.configure do
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
 
-  config.web_console.development_only = false
+  # config.web_console.development_only = false
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true

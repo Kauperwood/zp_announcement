@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a85c8d-cdde-475e-b210-f3e8fa8ffea0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/announcement.iml" afterPath="$PROJECT_DIR$/.idea/announcement.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +20,7 @@
     <SUITE FILE_PATH="coverage/announcement@Announce_associations__announcement.coverage" NAME="Announce associations: announcement Coverage Results" MODIFIED="1589466340254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="announcement" />
     <SUITE FILE_PATH="coverage/announcement@Rails_console__announcement.coverage" NAME="Rails console: announcement Coverage Results" MODIFIED="1588779754164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="announcement" />
     <SUITE FILE_PATH="coverage/announcement@User__announcement.coverage" NAME="User: announcement Coverage Results" MODIFIED="1589465736962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="announcement" />
+    <SUITE FILE_PATH="coverage/announcement@All_specs_in_spec__announcement.coverage" NAME="All specs in spec: announcement Coverage Results" MODIFIED="1590091349876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="announcement" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -84,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="67">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -214,8 +216,8 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
       </list>
     </option>
   </component>
@@ -335,27 +337,7 @@
       <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: announcement">
-    <configuration default="false" name="Rails console: announcement" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="announcement" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="RSpec.All specs in spec: announcement">
     <configuration default="false" name="User: announcement" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="announcement" />
@@ -483,6 +465,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Announce" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All specs in spec: announcement" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="announcement" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
@@ -701,19 +717,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: announcement" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: announcement" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: announcement" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: announcement" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.User: announcement" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.Announce associations: announcement" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.Announce Validations: announcement" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.Announce: announcement" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.User: announcement" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.Announce associations: announcement" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Announce Validations: announcement" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.Announce: announcement" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.All specs in spec: announcement" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Announce: announcement" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Announce Validations: announcement" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Announce associations: announcement" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.User: announcement" />
-        <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: announcement" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in spec: announcement" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Announce: announcement" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Announce Validations: announcement" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Announce associations: announcement" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.User: announcement" />
       </list>
     </recent_temporary>
   </component>
@@ -732,7 +748,7 @@
       <workItem from="1588753179161" duration="23698000" />
       <workItem from="1589892558056" duration="932000" />
       <workItem from="1589897672597" duration="5210000" />
-      <workItem from="1590011116965" duration="3454000" />
+      <workItem from="1590011116965" duration="3894000" />
     </task>
     <task id="LOCAL-00001" summary="Add app to git">
       <created>1589899260085</created>
@@ -776,21 +792,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590074126064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="run backend tests">
+      <created>1590075336866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590075336866</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Announce_Validations__announcement - 2020.05.14 at 17h 27m 02s.xml">
-      <configuration name="Announce Validations: announcement" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__announcement - 2020.05.21 at 23h 01m 28s.xml">
+      <configuration name="All specs in spec: announcement" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Announce__announcement - 2020.05.14 at 17h 27m 12s.xml">
-      <configuration name="Announce: announcement" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__announcement - 2020.05.21 at 23h 01m 48s.xml">
+      <configuration name="All specs in spec: announcement" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Announce__announcement - 2020.05.14 at 17h 31m 58s.xml">
-      <configuration name="Announce: announcement" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__announcement - 2020.05.21 at 23h 02m 25s.xml">
+      <configuration name="All specs in spec: announcement" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Announce__announcement - 2020.05.14 at 17h 32m 49s.xml">
-      <configuration name="Announce: announcement" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__announcement - 2020.05.21 at 23h 02m 38s.xml">
+      <configuration name="All specs in spec: announcement" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Announce__announcement - 2020.05.14 at 17h 33m 07s.xml">
       <configuration name="Announce: announcement" configurationId="RSpecRunConfigurationType" />
@@ -812,7 +835,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103428000" />
+    <option name="totallyTimeSpent" value="103868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,7 +920,8 @@
     <MESSAGE value="add changes to circleci config file and to gemfile" />
     <MESSAGE value="add run backend tests in circleci" />
     <MESSAGE value="fix build" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix build" />
+    <MESSAGE value="run backend tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="run backend tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1232,14 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1258,8 +1274,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
