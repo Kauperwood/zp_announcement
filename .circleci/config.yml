@@ -1,12 +1,25 @@
 version: 2.1
 orbs:
-  ruby: circleci/ruby@0.1.2 
+  ruby: circleci/ruby@0.1.2
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/ruby:2.6.2-stretch-node
+      environment:
+        BUNDLE_JOBS: 3
+        BUNDLE_RETRY: 3
+        PGHOST: 127.0.0.1
+        PGUSER: postgres
+        RAILS_ENV: test
+    - image: circleci/postgres:11.3-alpine
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_DB: announcement_test
+        POSTGRES_PASSWORD: ""
 
 jobs:
   build:
-    docker:
-      - image: circleci/ruby:2.6.2-stretch-node
-    executor: ruby/default
+    <<: *defaults
     steps:
       - checkout
       - run:
