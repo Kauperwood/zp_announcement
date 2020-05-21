@@ -15,3 +15,8 @@ jobs:
             gem install bundler:2.1.4
             bundle -v
       - ruby/bundle-install
+      - run:
+          name: Run backend tests
+          command:
+            bundle exec rake db:schema:load
+            bundle exec rspec spec
