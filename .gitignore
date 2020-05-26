@@ -8,8 +8,9 @@
 /.bundle
 .idea/
 .idea*
-**/.idea/workspace.xml
-**/.idea/announcement.iml
+*/.idea/workspace.xml
+*/.idea/announcement.iml
+*/.idea/.rakeTasks
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
