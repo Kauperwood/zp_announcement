@@ -28,7 +28,6 @@ jobs:
             gem install bundler:2.1.4
             bundle install --without production --path=${BUNDLE_PATH:-vendor/bundle}
             bundle exec rake db:create db:migrate
-#      - ruby/bundle-install
       - run:
           name: Run backend tests
           command:

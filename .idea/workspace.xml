@@ -122,8 +122,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="435">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -805,7 +805,7 @@
       <workItem from="1588753179161" duration="23698000" />
       <workItem from="1589892558056" duration="932000" />
       <workItem from="1589897672597" duration="5210000" />
-      <workItem from="1590011116965" duration="5436000" />
+      <workItem from="1590011116965" duration="5709000" />
     </task>
     <task id="LOCAL-00001" summary="Add app to git">
       <created>1589899260085</created>
@@ -870,7 +870,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590093846745</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="try to fix circle ci">
+      <created>1590095135841</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590095135841</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -906,7 +913,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105410000" />
+    <option name="totallyTimeSpent" value="105683000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -994,7 +1001,8 @@
     <MESSAGE value="run backend tests" />
     <MESSAGE value="remove from test env" />
     <MESSAGE value="try to fix build" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to fix build" />
+    <MESSAGE value="try to fix circle ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to fix circle ci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1363,8 +1371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="435">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding />
         </state>
       </provider>
