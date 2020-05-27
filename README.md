@@ -5,6 +5,8 @@ The Announcements application is built on:
 * Ruby 2.6.2
 * Rails 6.0.3.rc1
 * postgresql 10.0 or higher
+* Hosted by Heroku
+* Continuous Integration service by CircleCI
 
 == New Development Machine Install
 
