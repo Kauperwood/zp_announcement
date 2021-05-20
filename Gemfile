@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.6.2'
 
 gem 'rails', '~> 6.0', '>= 6.0.3.rc1'
-gem 'puma', '4.3.5'                      # Use Puma as the app server
+gem 'puma', '4.3.8'                      # Use Puma as the app server
 gem 'sass-rails', '~> 5.0'               # Use SCSS for stylesheets
 gem 'uglifier', '>= 4.2.0'               # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 5.0.0'           # Use CoffeeScript for .coffee assets and views
